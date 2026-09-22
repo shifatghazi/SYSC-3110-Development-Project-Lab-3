@@ -18,9 +18,13 @@ public class AddressBook {
     }
 
     public static void main(String[] args){
-        System.out.println("Address Book");
-    }
+        BuddyInfo buddy = new BuddyInfo("Homer", "742 Evergreen Terrace", "613-851-4044");
 
+        AddressBook addressBook = new AddressBook();
+
+        addressBook.addBuddy(buddy);
+        addressBook.removeBuddy(buddy);
+    }
 }
 
 
