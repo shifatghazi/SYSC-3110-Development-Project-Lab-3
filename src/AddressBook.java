@@ -17,6 +17,8 @@ public class AddressBook {
         buddies.remove(buddy);
     }
 
+    //Commenting to test by adding code on the online repo to late view it locally
+
     public static void main(String[] args){
         BuddyInfo buddy = new BuddyInfo("Homer", "742 Evergreen Terrace", "613-851-4044");
 
