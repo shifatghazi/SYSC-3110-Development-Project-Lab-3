@@ -27,6 +27,7 @@ public class BuddyInfo {
         return phoneNumber;
     }
 
+    //Comment added to test step 11 for the lab where I make a change and see the update in the commit history
 
     public static void main(String[] args) {
         BuddyInfo buddyInfo = new BuddyInfo("Homer", "742 Evergreen Terrace", "613-851-4044");
