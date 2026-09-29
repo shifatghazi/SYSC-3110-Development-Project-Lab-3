@@ -19,6 +19,9 @@ public class AddressBook {
 
     //Commenting to test by adding code on the online repo to late view it locally
 
+    public int getSize(){
+        return buddies.size();
+    }
     public static void main(String[] args){
         BuddyInfo buddy = new BuddyInfo("Homer", "742 Evergreen Terrace", "613-851-4044");
 
